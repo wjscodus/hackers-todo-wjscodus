@@ -11,9 +11,9 @@
           ],
           "defaultAuthentication": {
             "apiKeyConfig": {
-              "apiKeyExpirationDate": "2023-12-16T08:53:58.470Z",
+              "apiKeyExpirationDate": "2023-12-16T13:44:46.850Z",
               "apiKeyExpirationDays": 30,
-              "description": "da2-uijk5n5vzffxfitrtxtvdsas6y"
+              "description": "d31303c5komq21"
             },
             "authenticationType": "API_KEY"
           }
@@ -21,6 +21,32 @@
       },
       "providerPlugin": "awscloudformation",
       "service": "AppSync"
+    }
+  },
+  "auth": {
+    "wjscodustodotestbd8375de": {
+      "customAuth": false,
+      "dependsOn": [],
+      "frontendAuthConfig": {
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyCharacters": [],
+          "passwordPolicyMinLength": 8
+        },
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito"
     }
   }
 }
