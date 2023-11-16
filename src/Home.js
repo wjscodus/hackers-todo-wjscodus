@@ -14,7 +14,7 @@ import  { Todo } from './models';
 
 const Header = () => (
   <View style={styles.headerContainer}>
-    <Text style={styles.headerTitle}>My Todo List</Text>
+    <Text style={styles.headerTitle}>My Todo List안녕</Text>
   </View>
 );
 
