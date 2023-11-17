@@ -9,6 +9,7 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@aws-amplify/core": "^6.0.3",
     "@aws-amplify/datastore": "^5.0.2",
     "@expo/webpack-config": "^19.0.0",
     "@react-native-async-storage/async-storage": "^1.19.5",
@@ -26,7 +27,9 @@
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
-    "@babel/preset-env": "^7.23.3"
+    "@babel/preset-env": "^7.23.3",
+    "@types/node": "^20.9.1",
+    "typescript": "^5.2.2"
   },
   "private": true
 }
