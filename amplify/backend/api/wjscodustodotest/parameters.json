@@ -2,5 +2,5 @@
   "AppSyncApiName": "wjscodustodotest",
   "DynamoDBBillingMode": "PAY_PER_REQUEST",
   "DynamoDBEnableServerSideEncryption": false,
-  "AuthModeLastUpdated": "2023-11-16T13:44:56.953Z"
+  "AuthModeLastUpdated": "2023-11-17T02:33:26.304Z"
 }
