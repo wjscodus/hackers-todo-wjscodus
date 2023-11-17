@@ -17,6 +17,16 @@
       },
       "api": {
         "wjscodustodotest": {}
+      },
+      "storage": {
+        "TODOLISTe4lbr5w2ljgfzpqomol6yayayystaging": {
+          "tableName": "TODOLIST-e4lbr5w2ljgfzpqomol6yayayy-staging",
+          "region": "ap-northeast-2",
+          "arn": "arn:aws:dynamodb:ap-northeast-2:271292463384:table/TODOLIST-e4lbr5w2ljgfzpqomol6yayayy-staging",
+          "streamArn": "arn:aws:dynamodb:ap-northeast-2:271292463384:table/TODOLIST-e4lbr5w2ljgfzpqomol6yayayy-staging/stream/2023-11-16T13:34:39.759",
+          "partitionKeyName": "id",
+          "partitionKeyType": "S"
+        }
       }
     }
   }

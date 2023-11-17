@@ -48,5 +48,63 @@
       "providerPlugin": "awscloudformation",
       "service": "Cognito"
     }
+  },
+  "parameters": {
+    "AMPLIFY_storage_TODOLISTe4lbr5w2ljgfzpqomol6yayayystaging_arn": {
+      "usedBy": [
+        {
+          "category": "storage",
+          "resourceName": "TODOLISTe4lbr5w2ljgfzpqomol6yayayystaging"
+        }
+      ]
+    },
+    "AMPLIFY_storage_TODOLISTe4lbr5w2ljgfzpqomol6yayayystaging_partitionKeyName": {
+      "usedBy": [
+        {
+          "category": "storage",
+          "resourceName": "TODOLISTe4lbr5w2ljgfzpqomol6yayayystaging"
+        }
+      ]
+    },
+    "AMPLIFY_storage_TODOLISTe4lbr5w2ljgfzpqomol6yayayystaging_partitionKeyType": {
+      "usedBy": [
+        {
+          "category": "storage",
+          "resourceName": "TODOLISTe4lbr5w2ljgfzpqomol6yayayystaging"
+        }
+      ]
+    },
+    "AMPLIFY_storage_TODOLISTe4lbr5w2ljgfzpqomol6yayayystaging_region": {
+      "usedBy": [
+        {
+          "category": "storage",
+          "resourceName": "TODOLISTe4lbr5w2ljgfzpqomol6yayayystaging"
+        }
+      ]
+    },
+    "AMPLIFY_storage_TODOLISTe4lbr5w2ljgfzpqomol6yayayystaging_streamArn": {
+      "usedBy": [
+        {
+          "category": "storage",
+          "resourceName": "TODOLISTe4lbr5w2ljgfzpqomol6yayayystaging"
+        }
+      ]
+    },
+    "AMPLIFY_storage_TODOLISTe4lbr5w2ljgfzpqomol6yayayystaging_tableName": {
+      "usedBy": [
+        {
+          "category": "storage",
+          "resourceName": "TODOLISTe4lbr5w2ljgfzpqomol6yayayystaging"
+        }
+      ]
+    }
+  },
+  "storage": {
+    "TODOLISTe4lbr5w2ljgfzpqomol6yayayystaging": {
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "DynamoDB",
+      "serviceType": "imported"
+    }
   }
 }
